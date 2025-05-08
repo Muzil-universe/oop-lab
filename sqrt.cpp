@@ -5,10 +5,7 @@ int main() {
     int n;
     cin >> n;
 
-    if (n == 0 || n == 1) {
-        cout << n << endl; // The square root of 0 is 0, and 1 is 1
-        return 0;
-    }
+  
 
     double guess = n / 2.0;  // Initial guess
     double epsilon = 0.0001; // Precision (accuracy of the result)
